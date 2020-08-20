@@ -9,6 +9,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-       
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="Black">
+            <TextBlock Foreground="Green" HorizontalAlignment="Center">Информация</TextBlock>
+            <TextBlock Foreground="Green">Живых: <Run Text="{Binding Count}"></Run></TextBlock>
+            <Button Click="Button_Click_2">Генератор</Button>
+            <Button Click="Button_Click">Начать</Button>
+            <Button Click="Button_Click_1">Стоп</Button>
+            <TextBlock Name ="text" Foreground="Green"></TextBlock>
+        </StackPanel>
+        <Canvas Name="canvas" Grid.Column="1">
+
+        </Canvas>
+
     </Grid>
 </Window>

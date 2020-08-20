@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLife", "GameLife\GameLife.csproj", "{EA756ED5-B464-4583-AE10-938479F3DADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{0B3AB5B3-BF45-4681-8592-28233389B65C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA756ED5-B464-4583-AE10-938479F3DADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA756ED5-B464-4583-AE10-938479F3DADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA756ED5-B464-4583-AE10-938479F3DADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3AB5B3-BF45-4681-8592-28233389B65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3AB5B3-BF45-4681-8592-28233389B65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3AB5B3-BF45-4681-8592-28233389B65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3AB5B3-BF45-4681-8592-28233389B65C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
